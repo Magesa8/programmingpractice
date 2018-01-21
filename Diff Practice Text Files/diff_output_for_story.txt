@@ -1,0 +1,45 @@
+Output for the command "diff -e story1.txt story2.txt > diff_output_for_story.txt":
+
+5c
+She would look up into the clouds and dream of being a world-famous baker. 
+.
+1,3c
+Once upon at time, there was a girl named Persephone.
+She had red hair.
+She loved chocolate chip cookies more than anything.
+.
+
+
+Output for the command "diff -u story1.txt story2.txt":
+
+--- story1.txt	2017-10-11 10:03:50.000000000 -0700
++++ story2.txt	2017-10-11 10:05:42.000000000 -0700
+@@ -1,5 +1,5 @@
+-Once upon a time, there was a girl named Persephone.
+-She had black hair.
+-She loved her mother more than anything.
++Once upon at time, there was a girl named Persephone.
++She had red hair.
++She loved chocolate chip cookies more than anything.
+ She liked to sit outside in the sunshine with her cat, Daisy.
+-She dreamed of being a painter when she grew up.
++She would look up into the clouds and dream of being a world-famous baker.
+
+
+Output for the command "diff -c story1.txt story2.txt":
+ 
+*** story1.txt	2017-10-11 10:03:50.000000000 -0700
+--- story2.txt	2017-10-11 10:05:42.000000000 -0700
+***************
+*** 1,5 ****
+! Once upon a time, there was a girl named Persephone.
+! She had black hair.
+! She loved her mother more than anything.
+  She liked to sit outside in the sunshine with her cat, Daisy.
+! She dreamed of being a painter when she grew up.
+--- 1,5 ----
+! Once upon at time, there was a girl named Persephone.
+! She had red hair.
+! She loved chocolate chip cookies more than anything.
+  She liked to sit outside in the sunshine with her cat, Daisy.
+! She would look up into the clouds and dream of being a world-famous baker. 

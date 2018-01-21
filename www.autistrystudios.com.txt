@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+    <title>Autistry Studios</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- leave this for stats please -->
+    <link rel="stylesheet" href="/blog/wp-content/themes/autistry-wasteland/style.css" type="text/css"
+        media="screen" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/imagemenu/imageMenu.css" />
+
+    <script type="text/javascript" src="/imagemenu/mootools.js"></script>
+
+    <script type="text/javascript" src="/imagemenu/imageMenu.js"></script>
+
+    <style type="text/css">
+        .style1
+        {
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <!-- $$Header: /Source/Projects/Autistry/Autistry root/Default.aspx 86    2/04/16 9:25a Dan $ -->
+    <div id="wrapper">
+        <div id="main_content">
+            <div id="header-wrap">
+                <div class="header">
+                    <div class="headerlogo">
+                        <a href="http://www.AutistryStudios.com" title="Autistry Studios">
+                            <img src="images/logoheader1.gif" alt="Autistry Studios" /></a></div>
+                    <div class="subscribe">
+                        <a href="/blog/?feed=rss2" title="Add this blog to any reader">
+                            <img src="/blog/wp-content/themes/wasteland/images/rss.gif" alt="RSS" /></a></div>
+                </div>
+            </div>
+            <div id="topHome">
+                <div class="topsectionHome">
+                    <div id="imageMenu">
+                        <ul>
+                            <li class="bk1" title="Mission"><a href="/blog/index.php/Mission/">Category 1</a></li>
+                            <li class="bk2" title="About"><a href="/blog/index.php/about/">Category 2</a></li>
+                            <li class="bk3" title="Programs"><a href="/blog/index.php/programs/">Category 3</a></li>
+                            <li class="bk4" title="Blog"><a href="/blog/index.php/blog/">Category 4</a></li>
+                            <li class="bk5" title="Team"><a href="/blog/index.php/team/">Category 5</a></li>
+                            <li class="bk6" title="Contact"><a href="/blog/index.php/contact/">Category 6</a></li>
+                            <li class="bk7" title="Donate"><a href="/blog/index.php/donate/">Category 7</a></li>
+                        </ul>
+                    </div>
+
+                    <script type="text/javascript">
+                        window.addEvent('domready', function(){
+	                        var myMenu = new ImageMenu($$('#imageMenu a'),{openWidth:310, border:2, onOpen:function(e,i){location=(e);}});
+                        });
+                    </script>
+
+                </div>
+                <!-- Banner start-->
+                <!--
+                <div id="banner">
+                    <a 
+                        href="http://www.autistrystudios.com/blog/wp-content/uploads/2017/03/S-and-A-Party-2017.pdf" style="border 0;">
+                    <img src="/images/SAParty900.jpg" 
+                        alt="2017 Scientists and Artists Party Tickets" 
+                        
+                        style="border-style: none; border-color: inherit; border-width: 0; margin-left: 45px; height: 313px; width: 900; " 
+                         /></a>
+                </div>
+                -->
+                <!-- Banner end -->
+           </div>
+             <div id="right_sidebar">
+                <ul>
+                    <li>
+                        <h2>
+                            .: Subscribe :.</h2>
+                        <ul>
+                            <form method="post" action="http://www.feedblitz.com/f/f.fbz?AddNewUserDirect">
+                            Enter your Email to subscribe to new posts as they are published.<br />
+                            <input name="EMAIL" maxlength="255" type="text" size="25" value="" /><br />
+                            <input name="FEEDID" type="hidden" value="910033" />
+                            <input type="submit" value="Subscribe to new posts" style="width: 180px" />
+                            </form>
+                            <br />
+                            <a href="http://www.feedblitz.com/f/?Sub=910033">
+                                <img title="Subscribe to get updates by email and more!" src="http://assets.feedblitz.com/chicklets/email/i/b8/910033.bmp"  style="border: none" /></a>
+                        </ul>
+                        <ul>
+                            <li><a class="rss" href="feed:http://www.autistrystudios.com/blog/index.php/feed/"
+                                title="Syndicate this site using RSS"><img src="images/feed-icon-14x14.png" 
+                                    style="border-style: none; border-color: inherit; height: 12px;" />
+                                <abbr title="Really Simple Syndication">
+                                    RSS</abbr> 
+                            </a></li>
+                            <li><a class="rss" href="feed:http://www.autistrystudios.com/blog/index.php/comments/feed/"
+                                title="The latest comments to all posts in RSS">
+                                <img src="images/feed-icon-14x14.png" 
+                                    style="border-style: none; border-color: inherit; height: 12px;" />
+                                Comments <abbr title="Really Simple Syndication">RSS</abbr>
+                            </a></li>
+                            <li>
+                                <!-- Facebook Badge START -->
+                                <a href="http://www.facebook.com/pages/Autistry-Studios/295308080056" title="Autistry Studios"
+                                    target="_TOP" style="font-family: &quot; lucida grande&quot; ,tahoma,verdana,arial,sans-serif;
+                                    font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal;
+                                    color: #3B5998; text-decoration: none;">Autistry Studios</a><br />
+                                <a href="http://www.facebook.com/pages/Autistry-Studios/295308080056" title="Autistry Studios"
+                                    target="_TOP">
+                                    <img src="http://badge.facebook.com/badge/295308080056.4005.1980357841.png" width="120"
+                                        height="198" style="border: 0px;" /></a><br />
+                                <a href="http://www.facebook.com/business/dashboard/" title="Make your own badge!"
+                                    target="_TOP" style="font-family: &quot; lucida grande&quot; ,tahoma,verdana,arial,sans-serif;
+                                    font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal;
+                                    color: #3B5998; text-decoration: none;">Promote Your Page Too</a><!-- Facebook Badge END --></li>
+                        </ul>
+                    </li>
+
+                    <li id="linkcat-4" class="linkcat">
+                        <h2>
+                            .: Links :.</h2>
+                        <ul class='xoxo blogroll'>
+                            <li><a href="http://www.facebook.com/Autistry" title="Autistry on Facebook"
+                                target="_blank">Autistry on Facebook</a></li>
+                            <li><a href="http://autistrystudios.tumblr.com/" title="Autistry Tumblr" target="_blank">
+                                Autistry Tumblr</a></li>
+                            <li><a href="http://www.youtube.com/user/Autistry" title="Autistry on YouTube"
+                                target="_blank">Autistry on YouTube</a></li>
+                            <li><a href="http://www.youtube.com/user/danatpolywebcom" title="old Autistry YouTube channel"
+                                target="_blank">old Autistry YouTube channel</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="left_sidebar">
+                <ul>
+                    <li>
+                        <h2>
+                            .: Categories :.</h2>
+                        <ul>
+                            <li class="cat-item cat-item-3"><a href="http://www.autistrystudios.com/blog/index.php/category/newsletter/"
+                                title="Newsletters containing news, updates and announcements about Autistry Studios activities and events. ">
+                                Studio Newsletters</a> </li>
+                            <li class="cat-item cat-item-9"><a href="http://www.autistrystudios.com/blog/index.php/category/project-ideas/"
+                                title="View all posts filed under Project Ideas">Project Ideas</a> </li>
+                            <li class="cat-item cat-item-6"><a href="http://www.autistrystudios.com/blog/index.php/category/projects/"
+                                title="Commentary by staff about student projects.">Student Projects</a> </li>
+                        </ul>
+                    </li>
+                    <li class="pagenav">
+                        <h2>
+                            .: Sections :.</h2>
+                        <ul>
+                            <li class="page_item page-item-38"><a href="http://www.autistrystudios.com/blog/index.php/mission/"
+                                title="Mission">Mission</a></li>
+                            <li class="page_item page-item-2"><a href="http://www.autistrystudios.com/blog/index.php/about/"
+                                title="About">About</a>
+                                <ul class='children'>
+                                    <li class="page_item page-item-391"><a href="http://www.autistrystudios.com/blog/index.php/about/incorporation-and-non-profit-status/"
+                                        title="Incorporation and Non Profit Status">Incorporation and Non Profit Status</a></li>
+                                </ul>
+                            </li>
+                            <li class="page_item page-item-40"><a href="http://www.autistrystudios.com/blog/index.php/programs/"
+                                title="Programs">Programs</a>
+                                <ul class='children'>
+                                    <li class="page_item page-item-808"><a href="http://www.autistrystudios.com/blog/index.php/programs/our-intake-process/"
+                                        title="Our Intake Process">Our Intake Process</a></li>
+                                    <li class="page_item page-item-659"><a href="http://www.autistrystudios.com/blog/index.php/programs/photo-galleries/"
+                                        title="Photo Galleries">Photo Galleries</a></li>
+                                </ul>
+                            </li>
+                            <li class="page_item page-item-6"><a href="http://www.autistrystudios.com/blog/index.php/team/"
+                                title="Team">Team</a>
+                                <ul class='children'>
+                                    <li class="page_item page-item-84"><a href="http://www.autistrystudios.com/blog/index.php/team/board-of-directors/"
+                                        title="Board of Directors">Board of Directors</a></li>
+                                </ul>
+                            </li>
+                            <li class="page_item page-item-42"><a href="http://www.autistrystudios.com/blog/index.php/contact/"
+                                title="Contact">Contact</a>
+                                <ul class='children'>
+                                    <li class="page_item page-item-1496"><a href="http://www.autistrystudios.com/blog/index.php/contact/directions-to-studio/"
+                                        title="Directions to Studio">Directions to Studio</a></li>
+                                </ul>
+                            </li>
+                            <li class="page_item page-item-1014"><a href="http://www.autistrystudios.com/blog/index.php/donate/"
+                                title="Donations">Donations</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>
+                            .: Search :.</h2>
+                        <div class="search">
+                            <form method="get" id="searchform" action="/blog/">
+                            <div>
+                                <div>
+                                    <input type="text" class="txt" name="s" id="s" value="Type and hit enter to search"
+                                        onfocus="if (this.value == 'Type and hit enter to search') {this.value = '';}"
+                                        onblur="if (this.value == '') {this.value = 'Type and hit enter to search';}" />
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="container">
+            <!--
+                <div class="post" id="TopBlockBanner">
+                    <span class="style1">
+                        <div class="entry">
+                        <center>
+                        stuff here
+                        </center>
+                        </div>
+                    </span>
+                </div>
+            -->
+                <div class="post" id="post-2">
+                    <center>
+                        <h2>Helping ASD youth become independent adults</h2>
+                    </center>
+                    <span class="style1">
+                        <div class="entry">
+                        <center>
+                            
+                            <em>We work with individuals 13 and older with a wide range of diagnoses<br />
+                            We are located in Marin County, California</em>
+                         </center>
+                        </div>
+                    </span>
+                </div>
+                <!-- Top level article post area -->
+                <div class="post" id="post-2693">
+                    <div class="style1">
+                        <p>
+                        <strong>Autistry Studios</strong> is a pre-vocational program that promotes the growth of independence. 
+                        The transition from youth to adult is a difficult time for everyone. For students with Autism, 
+                        Asperger’s or other similar challenges the transition to independent adulthood can be especially difficult.
+                        </p> 
+                        <p>
+                        We work in small groups pursuing projects the students have chosen. In the context of working on these projects 
+                        we learn about the individual and support constructive growth. 
+                        </p>
+                        <p>
+                        Autistry Studios was founded by two parents who felt there was nothing else available to support their 
+                        son as he set out to discover adulthood.
+                        </p>
+                        
+                        
+                    </div>
+                <div class="entry"></div>
+                </div>
+                <!-- End Top level article post area -->
+
+                <div class="post" id="post-2863">
+                    <h2>
+                        <a href="http://www.autistrystudios.com/blog/index.php/2012/12/profile-of-excellence-video/"
+                            title="Autistry Studios &#8211; a profile of excellence">Autistry Studios &#8211;
+                            a profile of excellence</a></h2>
+                    <div class="entry">
+                        <p>
+                            Janet Lawson and Dan Swearingen, the founders Autistry Studios were chosen as one
+                            of ABC7&#8242;s <strong>2012 Profiles in Excellence.</strong></p>
+                        <p>
+                            <iframe width="500" height="281" src="http://www.youtube.com/embed/uTNP9i2X3iQ?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </p>
+                         <p class="postmetadata">
+                            This entry was posted by <a href="http://www.autistrystudios.com/blog/index.php/author/janet/"
+                                title="Posts by Janet Lawson, MFT" rel="author">Janet Lawson, MFT</a> on Sunday,
+                            December 9th, 2012 at 9:16 am and is filed under <a href="http://www.autistrystudios.com/blog/index.php/category/newsletter/"
+                                title="View all posts in Studio Newsletters" rel="category tag">Studio Newsletters</a>.
+                            
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="post" id="Div1">
+                    <h6>
+                        Pre-Vocational Workshops</h6>
+                    
+                    Build Stuff College Support Workshops prepare for the
+                    workplace and/or higher education by strengthening executive functioning and social
+                    skills.
+                    <br />
+                    <br />
+                    <h6>
+                        Counseling</h6>
+                    Individual, group, and family counseling is available to support our students as
+                    they navigate the difficult issues of launching, self-discovery, and new relationships.
+                    We also offer groups for families and siblings.
+                    <br />
+                    <br />
+                    <h6>
+                        LifeLong Learning Support</h6>
+                    Our College Support Group provides both academic and social support. We offer homework
+                    review as well as time management, study and organizational skill instruction. Individual
+                    tutoring is available in several subject areas including Math, Science, Computer
+                    Programming, History, and English.
+                    <br />
+                    <br />
+                    We also provide a safe place to work, hang out and meet new friends.<br />
+                </div>
+            </div>
+            <div id="footer">
+                <p>
+                    Copyright © 2012 Autistry Studios. Theme by <a href="http://www.the-cloisters.net">The
+                        Cloisters</a> &nbsp;</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+CREATE TABLE PRODUCT (
+    product_id		INTEGER			PRIMARY KEY,
+    product_name	CHARACTER (30),
+    category		CHARACTER (30),
+    in_stock		INTEGER			NOT NULL,
+    price_galleons	INTEGER			NOT NULL,
+    price_sickles	INTEGER			NOT NULL,
+    price_knuts		INTEGER			NOT NULL
+);
+
+CREATE TABLE CUSTOMER (
+	cust_id			INTEGER			PRIMARY KEY,
+	first_name		VARCHAR (30),
+	last_name		VARCHAR (30),
+	is_student		BOOLEAN
+);
+
+CREATE TABLE ADDRESS (
+	address_id		INTEGER			PRIMARY KEY,
+	building_name	CHARACTER (30),
+	street_address	CHARACTER (30)	NOT NULL,
+	town			CHARACTER (30)	NOT NULL,
+	std_delivery	VARCHAR (100),
+	muggle			BOOLEAN
+);
+
+CREATE DOMAIN PayType VARCHAR (5)
+	CHECK (VALUE IS "cash" OR "check" OR "other") ;
+
+CREATE TABLE TRANSACTION (
+	trans_id		INTEGER			PRIMARY KEY,
+	cust_id			INTEGER			NOT NULL,
+	address_id		INTEGER,
+	date			DATE,
+	pay_type		PayType,
+	CONSTRAINT cust_id_fk FOREIGN KEY (cust_id)
+		REFERENCES CUSTOMER (cust_id),
+	CONSTRAINT address_id_fk FOREIGN KEY (address_id)
+		REFERENCES ADDRESS (address_id)
+);
+
+CREATE TABLE TRANSACTION_PRODUCT (
+	trans_product_id	INTEGER			PRIMARY KEY,
+	trans_id			INTEGER			NOT NULL,
+	product_id			INTEGER			NOT NULL,
+	quantity			INTEGER			NOT NULL,
+	CONSTRAINT trans_id_fk FOREIGN KEY (trans_id)
+		REFERENCES TRANSACTION (trans_id),
+	CONSTRAINT product_id_fk FOREIGN KEY (product_id)
+		REFERENCES PRODUCT (product_id)
+);
+
+CREATE TABLE ADDRESS_CUSTOMER (
+	address_cust_id		INTEGER			PRIMARY KEY
+	address_id			INTEGER			NOT NULL,
+	cust_id				INTEGER			NOT NULL,
+	indiv_delivery		VARCHAR (100),
+	CONSTRAINT address_id_fk FOREIGN KEY (address_id)
+		REFERENCES ADDRESS (address_id),
+	CONSTRAINT cust_id_fk FOREIGN KEY (cust_id)
+		REFERENCES CUSTOMER (cust_id)
+);
+
+
+//Viewing product info from a given transaction:
+
+//This one worked!
+SELECT 
+	p.product_name, p.price_galleons, p.price_sickles, p.price_knuts
+	FROM PRODUCT AS p INNER JOIN TRANSACTION_PRODUCT AS tp
+	USING (product_id)
+	WHERE tp.trans_id=<whichever transaction you're interested in>
+; 
+
+//Also worked, but across multiple lines, one for each product:
+SELECT
+	t.date, p.product_name,
+	p.price_galleons, p.price_sickles, p.price_knuts
+	FROM TRANSACTION_PRODUCT AS tp
+	INNER JOIN PRODUCT AS p
+	USING (product_id)
+	INNER JOIN TRANSACTION AS t
+	USING (trans_id)
+	WHERE tp.trans_id=3 //or whatever transaction you're interested in
+; 
+
+//This worked too, even though the foreign keys are distributed across different tables!
+SELECT
+	t.date, c.first_name, c.last_name,
+	p.product_name, p.price_galleons, p.price_sickles, p.price_knuts,
+	tp.quantity
+	FROM TRANSACTION_PRODUCT AS tp
+	INNER JOIN PRODUCT AS p
+	USING (product_id)
+	INNER JOIN TRANSACTION AS t
+	USING (trans_id)
+	INNER JOIN CUSTOMER AS c
+	USING (cust_id)
+	WHERE tp.trans_id=3 //or whatever transaction you're interested in
+;
+	
+		
+SELECT
+	t.date, c.first_name, c.last_name,
+	p.product_name, tp.quantity,
+	
+	FROM TRANSACTION_PRODUCT AS tp
+	INNER JOIN PRODUCT AS p
+	USING (product_id)
+	INNER JOIN TRANSACTION AS t
+	USING (trans_id)
+	INNER JOIN CUSTOMER AS c
+	USING (cust_id)
+	WHERE tp.trans_id=3 //or whatever transaction you're interested in
+;
+	
+	
+	
+	
+	
+	
+	
+	
