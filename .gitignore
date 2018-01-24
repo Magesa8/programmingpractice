@@ -1,3 +1,6 @@
+#Ignore the DS_Store file:
+.DS_Store
+
 #C++ Stuff to Ignore:
 
 # Prerequisites
