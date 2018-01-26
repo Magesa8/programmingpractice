@@ -12,7 +12,7 @@ int main() {
 	cout << "What is your favorite color?\n";
 	string color;
 	cin >> color;
-	cout << "Wow, " << name << ". " << color << "? How original. " <<
-		"I can see you'll have LOTS of luck with that quest.\n";
+	cout << "Wow, " << name << ". " << color << "? Very original." <<
+		" Good luck with " << quest << ". *Snicker*\n";
 	return 0;
 }
